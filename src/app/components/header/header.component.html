@@ -1,0 +1,58 @@
+<mat-toolbar *ngIf="!isMobile" color="primary" class="position-sticky top-0 z-index-1">
+
+<button mat-raised-button class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
+    <mat-icon aria-hidden="false" aria-label="Home icon">
+      home
+    </mat-icon> Anindyo Choudhury
+  </button>
+	<span></span>
+	<span class="example-spacer"></span>
+  <button mat-raised-button class="margin-4-px" color="primary" routerLink="/experience" matTooltip="Experience" aria-label="Experience button">
+    <mat-icon aria-hidden="false" aria-label="Experience icon">
+      work
+    </mat-icon> Experience
+  </button>
+  <button mat-raised-button class="margin-4-px" color="primary" routerLink="/skills" matTooltip="Skills" aria-label="Skills button">
+    <mat-icon aria-hidden="false" aria-label="Skills icon">
+      military_tech
+    </mat-icon> Skills
+  </button>
+  <button mat-raised-button class="margin-4-px" color="primary" routerLink="/achievements-leadership" matTooltip="Achievements and Leadership" aria-label="Achievements and leadership button">
+    <mat-icon aria-hidden="false" aria-label="Achievements icon">
+      emoji_events
+    </mat-icon> Achievements
+  </button>
+  <button mat-raised-button class="margin-4-px" color="primary" routerLink="/education" matTooltip="Education" aria-label="Education button">
+    <mat-icon aria-hidden="false" aria-label="Education icon">
+      school
+    </mat-icon> Education
+  </button>
+</mat-toolbar>
+
+<mat-toolbar *ngIf="isMobile" color="primary" class="position-sticky top-0 z-index-1">
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
+    AC
+  </button>
+	<span class="example-spacer"></span>
+  
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/experience" matTooltip="Experience" aria-label="Experience button">
+    <mat-icon aria-hidden="false" aria-label="Experience icon">
+      work
+    </mat-icon>
+  </button>
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/skills" matTooltip="Skills" aria-label="Skills button">
+    <mat-icon aria-hidden="false" aria-label="Skills icon">
+      military_tech
+    </mat-icon>
+  </button>
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/achievements-leadership" matTooltip="Achievements and Leadership" aria-label="Achievements and leadership button">
+    <mat-icon aria-hidden="false" aria-label="Achievements icon">
+      emoji_events
+    </mat-icon>
+  </button>
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/education" matTooltip="Education" aria-label="Education button">
+    <mat-icon aria-hidden="false" aria-label="Education icon">
+      school
+    </mat-icon>
+  </button>
+</mat-toolbar>
